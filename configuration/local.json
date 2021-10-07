@@ -1,0 +1,15 @@
+{
+	"root": "/",
+	"keys": [
+		{
+			"search": "{{server}}",
+			"replace": "http://localhost:8096",
+			"flags": "g"
+		},
+		{
+			"search": "{{asset_path}}",
+			"replace": "/",
+			"flags": "g"
+		}
+	]
+}

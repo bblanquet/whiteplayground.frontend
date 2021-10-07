@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
       "jsxFactory": "h",
+      "allowSyntheticDefaultImports": true,
       "noImplicitAny": true,
       "module": "es6",
       "target": "es6",
       "jsx": "react",
       "allowJs": true,
+      "sourceMap": true,
       "moduleResolution": "node"
     }
   }

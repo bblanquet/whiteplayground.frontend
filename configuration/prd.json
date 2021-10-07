@@ -1,0 +1,15 @@
+{
+	"root": "/wp/front",
+	"keys": [
+		{
+			"search": "{{server}}",
+			"replace": "https://kimchistudio.tech/wp/back",
+			"flags": "g"
+		},
+		{
+			"search": "{{asset_path}}",
+			"replace": "/wp/front/",
+			"flags": "g"
+		}
+	]
+}
